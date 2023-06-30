@@ -45,9 +45,7 @@ while True:
         
     elif opcao == "e":
         print("Extrato")
-        print(operacoes)
-        extrato=float(saldo)
-        print(f"Saldo atual: R${extrato:3.2f}")
+        if operacoes == [] :
 
         
     elif opcao == "x":
